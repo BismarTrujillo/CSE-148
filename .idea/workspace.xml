@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="part 3">
+    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="part 3 completed">
+      <change afterPath="$PROJECT_DIR$/src/TestUserAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestRing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +84,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694578054129</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="part 3 completed">
+      <option name="closed" value="true" />
+      <created>1694657215782</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694657215782</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project created" />
     <MESSAGE value="Part 1 &amp; 2 completed" />
     <MESSAGE value="part 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 3" />
+    <MESSAGE value="part 3 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 3 completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

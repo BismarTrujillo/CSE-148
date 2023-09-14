@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Test {
+public class TestRing {
     public static void main(String[] args) {
         Random rand = new Random();
         Ring[] ringArray = new Ring[5];
@@ -27,14 +27,12 @@ public class Test {
                 newRingArrayIndex++;
             }
         }
-        System.out.println("\nUpdated array:");
-        for (Ring value : newRingArray) {
-            System.out.println(value);
 
-        }
+        double smallestRingArea = Ring.smallestLargestRing(ringArray).smallest.getArea();
+        double largestRingArea = Ring.smallestLargestRing(ringArray).largest.getArea();
+
         System.out.println("The average area of rings is: " + Ring.averageAreaOfRings(ringArray));
-
-        System.out.println("The largest ring has area: " + Ring.smallestLargestRing(ringArray).largest.getArea() + "the smallest ring has area: " + Ring.smallestLargestRing(ringArray).smallest.getArea());
+        System.out.println("The largest ring has area: " + largestRingArea + " the smallest ring has area: " + smallestRingArea);
     }
 
 }
