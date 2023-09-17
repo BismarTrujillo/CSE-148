@@ -1,3 +1,5 @@
+package HW02;
+
 import java.util.*;
 
 public class TestRing {
@@ -31,8 +33,16 @@ public class TestRing {
         double smallestRingArea = Ring.smallestLargestRing(ringArray).smallest.getArea();
         double largestRingArea = Ring.smallestLargestRing(ringArray).largest.getArea();
 
-        System.out.println("The average area of rings is: " + Ring.averageAreaOfRings(ringArray));
+        System.out.println("The average area of rings is: " + averageAreaOfRings(ringArray));
         System.out.println("The largest ring has area: " + largestRingArea + " the smallest ring has area: " + smallestRingArea);
+    }
+    public static double averageAreaOfRings(Ring[] ringsArray) {
+        double areaSum = 0.0;
+        for (Ring ring : ringsArray) {
+            areaSum += ring.getArea();
+        }
+        return areaSum / ringsArray.length;
     }
 
 }
+

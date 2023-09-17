@@ -1,3 +1,7 @@
+package HW02;
+
+import java.util.Objects;
+
 public class TestUserAccount {
     public static void main(String[] args) {
         UserAccount[] users = new UserAccount[8];
@@ -10,11 +14,29 @@ public class TestUserAccount {
         users[6] = new UserAccount("andrew222", "password7", "unassigned");
         users[7] = new UserAccount("ivan555", "password8", "faculty");
 
-        int administrators = UserAccount.countUsers(users, "administrator");
-        int faculty = UserAccount.countUsers(users, "faculty");
+        int administrators = countUsers(users, "administrator");
+        int faculty = countUsers(users, "faculty");
 
         System.out.println("administrators: " + administrators +
                 " faculty: " + faculty);
-        System.out.println("User found: " + UserAccount.findUser(users, new UserAccount("edu123", "password2", "staff")));
+        System.out.println("User found: " + findUser(users, new UserAccount("edu123", "password2", "staff")));
+    }
+
+    public static boolean findUser(UserAccount[] users, UserAccount user) {
+        for (UserAccount userValue : users) {
+            if (userValue.sameUser(user)) {
+                return true;
+            }
+        }
+        return false;
+    }
+    public static int countUsers(UserAccount[] users, String role) {
+        int countUser = 0;
+        for (UserAccount user : users) {
+            if (Objects.equals(user.getRole(), role)) {
+                countUser++;
+            }
+        }
+        return countUser;
     }
 }

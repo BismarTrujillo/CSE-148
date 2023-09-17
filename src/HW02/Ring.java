@@ -1,3 +1,5 @@
+package HW02;
+
 public class Ring {
     double outerRadius;
     double innerRadius;
@@ -47,16 +49,8 @@ public class Ring {
         return (outerRadius * outerRadius - innerRadius * innerRadius) * Math.PI;
     }
 
-    public static double averageAreaOfRings(Ring[] ringsArray) {
-        double areaSum = 0.0;
-        for (Ring ring : ringsArray) {
-            areaSum += ring.getArea();
-        }
-        return areaSum / ringsArray.length;
-    }
 
     public static Ring smallestLargestRing(Ring[] ringsArray){
-        Ring [] smallestLargest = new Ring[2];
         Ring smallest = ringsArray[0];
         Ring largest = ringsArray[0];
 

@@ -1,10 +1,12 @@
+package HW02;
+
 import java.util.Objects;
 
 public class UserAccount {
-    String username;
+    private String username;
 
-    String password;
-    String role;
+    private String password;
+    private String role;
 
     public UserAccount() {
         username = "anonymous";
@@ -47,22 +49,7 @@ public class UserAccount {
                 Objects.equals(user.password, this.password);
     }
 
-    public static int countUsers(UserAccount[] users, String role) {
-        int countUser = 0;
-        for (UserAccount user : users) {
-            if (Objects.equals(user.role, role)) {
-                countUser++;
-            }
-        }
-        return countUser;
-    }
 
-    public static boolean findUser(UserAccount[] users, UserAccount user) {
-        for (UserAccount userValue : users) {
-            if (userValue.sameUser(user)) {
-                return true;
-            }
-        }
-        return false;
-    }
+
+
 }

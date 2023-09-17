@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="part 3 completed">
-      <change afterPath="$PROJECT_DIR$/src/TestUserAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserAccount.java" afterDir="false" />
+    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW 02 completed">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestRing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestRing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestRing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestUserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestUserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/HW02&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bisma/IdeaProjects/HW_Set_01&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/bisma/IdeaProjects/CSE-148/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/HW02",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/bisma/IdeaProjects/HW_Set_01",
+    "onboarding.tips.debug.path": "C:/Users/bisma/IdeaProjects/CSE-148/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -92,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694657215782</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HW 02 completed">
+      <option name="closed" value="true" />
+      <created>1694665405507</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694665405507</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -100,7 +111,8 @@
     <MESSAGE value="Part 1 &amp; 2 completed" />
     <MESSAGE value="part 3" />
     <MESSAGE value="part 3 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 3 completed" />
+    <MESSAGE value="HW 02 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 02 completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
