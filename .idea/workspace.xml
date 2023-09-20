@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="reorginized HW02">
-      <change afterPath="$PROJECT_DIR$/src/HW03/Student.java" afterDir="false" />
+    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW03 part 1 completed">
+      <change afterPath="$PROJECT_DIR$/src/HW03/StudentClub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,16 +40,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/HW02",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/bisma/IdeaProjects/HW_Set_01",
-    "onboarding.tips.debug.path": "C:/Users/bisma/IdeaProjects/CSE-148/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/HW02&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bisma/IdeaProjects/HW_Set_01&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/bisma/IdeaProjects/CSE-148/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -107,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694912543788</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HW03 part 1 completed">
+      <option name="closed" value="true" />
+      <created>1694917576330</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694917576330</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -117,7 +125,8 @@
     <MESSAGE value="part 3 completed" />
     <MESSAGE value="HW 02 completed" />
     <MESSAGE value="reorginized HW02" />
-    <option name="LAST_COMMIT_MESSAGE" value="reorginized HW02" />
+    <MESSAGE value="HW03 part 1 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW03 part 1 completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
