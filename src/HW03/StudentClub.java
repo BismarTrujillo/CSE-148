@@ -1,5 +1,7 @@
 package HW03;
 
+import java.util.Arrays;
+
 public class StudentClub {
 
     private Student[] studentList;
@@ -40,7 +42,7 @@ public class StudentClub {
         }
     }
 
-    private int numberOfStudents(){
+    public int numberOfStudents(){
         int numOfStudents = 0;
         for (int i = 0; i < studentList.length; i++) {
             if (studentList[i] != null)
@@ -71,6 +73,11 @@ public class StudentClub {
     }
 
 
+    public String toString() {
+        return "StudentClub{" +
+                "studentList=" + Arrays.toString(studentList) +
+                '}';
+    }
 
     public Student[] getStudentClub(){
 
