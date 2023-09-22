@@ -50,12 +50,20 @@ public class StudentClub {
         }
         return numOfStudents;
     }
+    public int numberOfStudents(Student[] student){
+        int numOfStudents = 0;
+        for (int i = 0; i < student.length; i++) {
+            if (student[i] != null)
+                numOfStudents++;
+        }
+        return numOfStudents;
+    }
 
     public Student findByHighestGpa() {
         Student studentHighestGpa = studentList[0];
 
         for (int i = 0; i < studentList.length; i++) {
-            if (studentList[i].getGpa() > studentHighestGpa.getGpa())
+            if (studentList[i] != null && studentList[i].getGpa() > studentHighestGpa.getGpa())
                 studentHighestGpa = studentList[i];
 
         }
@@ -75,7 +83,7 @@ public class StudentClub {
 
     public String toString() {
         return "StudentClub{" +
-                "studentList=" + Arrays.toString(studentList) +
+                "List of Students: " + Arrays.toString(studentList) +
                 '}';
     }
 
@@ -83,6 +91,11 @@ public class StudentClub {
 
         return studentList;
 }
+    public Student getStudent(int i){
+
+        return studentList[i];
+    }
+
 
 
 }
