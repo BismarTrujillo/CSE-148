@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW03 part 3 started (b)">
+    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW03 part 3 started (5)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW03/StudentClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW03/StudentClub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW03/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW03/Test.java" afterDir="false" />
@@ -166,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695309185336</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="HW03 part 3 started (5)">
+      <option name="closed" value="true" />
+      <created>1695346688267</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695346688267</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,7 +187,8 @@
     <MESSAGE value="HW03 part 1 completed" />
     <MESSAGE value="HW03 part 2 completed" />
     <MESSAGE value="HW03 part 3 started (b)" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW03 part 3 started (b)" />
+    <MESSAGE value="HW03 part 3 started (5)" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW03 part 3 started (5)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

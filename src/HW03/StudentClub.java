@@ -31,6 +31,27 @@ public class StudentClub {
         }
         return -1;
     }
+    public Student findStudentById(Student student){
+
+        for (int i = 0; i < studentList.length; i++) {
+            if(studentList[i] != null && studentList[i].getStudentID() == student.getStudentID())
+                return studentList[i];
+        }
+        return null;
+    }
+    public Student[] findStudentByName(String studentName){
+        Student[] temp = new Student[studentList.length];
+        int newSize = 0;
+        for (int i = 0, j = 0; i < studentList.length; i++) {
+            if (studentList[i] != null && studentList[i].getName().equals(studentName)) {
+                newSize++;
+                temp[j] = studentList[i];
+
+            }
+        }
+        return Arrays.copyOf(temp,newSize);
+
+    }
 
     public boolean dropStudent(Student student){
         int index = findStudent(student);
@@ -80,22 +101,17 @@ public class StudentClub {
         return sameMajor;
     }
 
-
-    public String toString() {
-        return "StudentClub{" +
-                "List of Students: " + Arrays.toString(studentList) +
-                '}';
-    }
-
     public Student[] getStudentClub(){
-
         return studentList;
 }
     public Student getStudent(int i){
-
         return studentList[i];
     }
 
-
-
+    @Override
+    public String toString() {
+        return "StudentClub{" +
+                "studentList=" + Arrays.toString(studentList) +
+                '}';
+    }
 }
