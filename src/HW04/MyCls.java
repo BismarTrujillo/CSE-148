@@ -25,13 +25,13 @@ public class MyCls {
         this.value = value;
     }
     public boolean compareMyCls(MyCls myCls1, MyCls myCls2){
-        return myCls1.equals(myCls2);
+        return myCls1.key.equals(myCls2.key) && (myCls1.value == myCls2.value);
     }
+
     public String toString() {
         return "MyCls{" +
                 "key='" + key + '\'' +
                 ", value=" + value +
                 '}';
     }
-
 }
