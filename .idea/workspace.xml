@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW04 part 1 completed">
+    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW04 part 2 completed">
+      <change afterPath="$PROJECT_DIR$/src/HW04/StackOfMyCls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW04/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW04/MyCls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW04/MyCls.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,20 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/bisma/IdeaProjects/CSE-148/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Palindrome">
+  <component name="RunManager" selected="Application.HW04.Test">
+    <configuration name="HW04.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW04.Test" />
+      <module name="CSE-148" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW04.Palindrome" />
       <module name="CSE-148" />
@@ -92,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW04.Test" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestUserAccount" />
@@ -203,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695697214514</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="HW04 part 2 completed">
+      <option name="closed" value="true" />
+      <created>1695781131892</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695781131892</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,7 +242,8 @@
     <MESSAGE value="HW03 part 3 started (5)" />
     <MESSAGE value="HW03 completed" />
     <MESSAGE value="HW04 part 1 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW04 part 1 completed" />
+    <MESSAGE value="HW04 part 2 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW04 part 2 completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
