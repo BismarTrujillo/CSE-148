@@ -13,9 +13,8 @@ public class StackOfMyCls {
     }
 
     public  boolean push(MyCls myClsObj){
-        if(size == myCls.length)
+        if(isFull())
             return false;
-        size++;
         myCls[size++] = myClsObj;
 
         return true;
@@ -36,9 +35,11 @@ public class StackOfMyCls {
     public int getSize() {
         return size;
     }
-
-    public boolean isEmpty(){
+    private boolean isFull(){
         return size == myCls.length;
+    }
+    private boolean isEmpty(){
+        return size == 0;
     }
 
     public String toString() {

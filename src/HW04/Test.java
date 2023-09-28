@@ -14,7 +14,12 @@ public class Test {
 
         System.out.println(stackMyCls.toString());
 
-        System.out.println(stackMyCls.peek());
+        System.out.println("Peeking: " + stackMyCls.peek());
+        System.out.println("Popping: " + stackMyCls.pop());
+        System.out.println("Popping: " + stackMyCls.pop());
+        System.out.println("Peeking " + stackMyCls.peek());
+
+
 
     }
 }
