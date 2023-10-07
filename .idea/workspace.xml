@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW04 part 3 progress">
+    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW04 completed">
+      <change afterPath="$PROJECT_DIR$/src/QUIZ/MyBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QUIZ/MyCls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QUIZ/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW04/StackOfMyCls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW04/StackOfMyCls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW04/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW04/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695869704867</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="HW04 completed">
+      <option name="closed" value="true" />
+      <created>1695933469852</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1695933469852</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -252,7 +261,8 @@
     <MESSAGE value="HW04 part 1 completed" />
     <MESSAGE value="HW04 part 2 completed" />
     <MESSAGE value="HW04 part 3 progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW04 part 3 progress" />
+    <MESSAGE value="HW04 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW04 completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
