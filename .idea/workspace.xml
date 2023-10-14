@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW04 completed">
-      <change afterPath="$PROJECT_DIR$/src/QUIZ/MyBag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QUIZ/MyCls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QUIZ/Test.java" afterDir="false" />
+    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="Quiz01">
+      <change afterPath="$PROJECT_DIR$/src/HW05/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW05/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW05/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +33,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BismarTrujillo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="35185036-5f9a-4e13-a858-8837c80ca6a2" />
+        <option name="url" value="https://github.com/BismarTrujillo/CSE-148.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -46,13 +60,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/HW02&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/HW&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/bisma/IdeaProjects/HW_Set_01&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/bisma/IdeaProjects/CSE-148/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HW04.Test">
+  <component name="RunManager" selected="Application.TestRing">
     <configuration name="HW04.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW04.Test" />
       <module name="CSE-148" />
@@ -92,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW02.TestRing" />
+      <module name="CSE-148" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestUserAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW02.TestUserAccount" />
       <module name="CSE-148" />
@@ -107,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestRing" />
         <item itemvalue="Application.HW04.Test" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.Test" />
@@ -243,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695933469852</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Quiz01">
+      <option name="closed" value="true" />
+      <created>1696721026043</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696721026043</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -262,7 +298,8 @@
     <MESSAGE value="HW04 part 2 completed" />
     <MESSAGE value="HW04 part 3 progress" />
     <MESSAGE value="HW04 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW04 completed" />
+    <MESSAGE value="Quiz01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quiz01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
