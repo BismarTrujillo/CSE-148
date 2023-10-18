@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW 05 classes created">
-      <change afterPath="$PROJECT_DIR$/src/HW05/Test.java" afterDir="false" />
+    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW 05 completed">
+      <change afterPath="$PROJECT_DIR$/oldFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW06/HW06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW06/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW05/AnimalHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW05/AnimalHouse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/bisma/IdeaProjects/CSE-148/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HW05.Test">
+  <component name="RunManager" selected="Application.HW06">
     <configuration name="HW04.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW04.Test" />
       <module name="CSE-148" />
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW04.Palindrome" />
+    <configuration name="HW06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW06.HW06" />
       <module name="CSE-148" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW04.*" />
+          <option name="PATTERN" value="HW06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW03.Test" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW04.Palindrome" />
       <module name="CSE-148" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW03.*" />
+          <option name="PATTERN" value="HW04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW06" />
         <item itemvalue="Application.HW05.Test" />
         <item itemvalue="Application.TestRing" />
         <item itemvalue="Application.HW04.Test" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697251420211</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="HW 05 completed">
+      <option name="closed" value="true" />
+      <created>1697260950755</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1697260950755</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -307,7 +316,8 @@
     <MESSAGE value="HW04 completed" />
     <MESSAGE value="Quiz01" />
     <MESSAGE value="HW 05 classes created" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 05 classes created" />
+    <MESSAGE value="HW 05 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 05 completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
