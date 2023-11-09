@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW 07 started">
-      <change afterPath="$PROJECT_DIR$/src/HW07/Test.java" afterDir="false" />
+    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW 07 Part 2">
+      <change afterPath="$PROJECT_DIR$/src/HW07/AverageValuesComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW07/CalculateAvg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW07/MyProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW07/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW07/MaxMinNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW07/MaxMinNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW07/MyNumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW07/MyNumArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MidTerm/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidTerm/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW07/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW07/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699501901186</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="HW 07 Part 2">
+      <option name="closed" value="true" />
+      <created>1699548147559</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1699548147560</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -358,7 +368,8 @@
     <MESSAGE value="HW 06 part 1, 2 completed" />
     <MESSAGE value="HW 06 completed" />
     <MESSAGE value="HW 07 started" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 07 started" />
+    <MESSAGE value="HW 07 Part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 07 Part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

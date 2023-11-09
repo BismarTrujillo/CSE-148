@@ -2,6 +2,7 @@ package HW07;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class Test {
 
@@ -17,23 +18,32 @@ public class Test {
         myArrayNumList.add(numArray2);
         myArrayNumList.add(numArray3);
 
+//        for (MyNumArray arr: myArrayNumList) {
+//            System.out.println("List: ");
+//            for (int num: arr.data) {
+//                System.out.println(num);
+//            }
+//        }
 
         for (MyNumArray arr: myArrayNumList) {
-            System.out.println("List: ");
-            for (int num: arr.data) {
-                System.out.println(num);
-            }
+            System.out.println(arr);
         }
+        Collections.sort(myArrayNumList, new AverageValuesComparator());
 
-        Collections.sort(myArrayNumList);
+        Collections.sort(myArrayNumList, new Comparator<MyNumArray>() {
+            @Override
+            public int compare(MyNumArray max1, MyNumArray max2) {
+                return max1.getMaximum() - max2.getMaximum();
+            }
+        });
 
+        Collections.sort(myArrayNumList, (min1, min2) -> min1.getMinimum() - min2.getMinimum());
 
         for (MyNumArray arr: myArrayNumList) {
-            System.out.println("List: ");
-            for (int num: arr.data) {
-                System.out.println(num);
-            }
+            System.out.println(arr);
         }
+
+
     }
 
 

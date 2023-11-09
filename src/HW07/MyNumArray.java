@@ -63,7 +63,8 @@ public class MyNumArray implements  MaxMinNum, Comparable<MyNumArray>, Cloneable
         return "MyNumArray: " +
                 "Data size = " + data.length +
                 " \n Minimum = " + getMinimum() +
-                " \n Maximum = " + getMaximum();
+                " \n Maximum = " + getMaximum() +
+                " \n Average = " + getAverage();
     }
 
     @Override
