@@ -21,17 +21,19 @@ public class AnimalHouse {
     }
     public boolean removeAnimal(String name){
         for (int i = 0; i < house.length; i++) {
-            if(house[i] != null && name.equals(house[i].getName()))
+            if(house[i] != null && name.equals(house[i].getName())){
                 house[i] = null;
-            return true;
+                return true;
+            }
         }
         return false;
     }
     public boolean removeAnimal(int index){
         for (int i = 0; i < house.length; i++) {
-            if(house[i] != null)
+            if(house[i] != null) {
                 house[index] = null;
-            return true;
+                return true;
+            }
         }
         return false;
     }

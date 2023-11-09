@@ -12,7 +12,7 @@ public class MyBag {
     }
     public boolean addMyCls(MyCls myCls){
         for (int i = 0; i < bag.length; i++) {
-            if((bag[i] == null)){ // same obj !=
+            if((bag[i] == null)){ // finds empty space
                 bag[i] = myCls;
                 return true;
             }
@@ -27,7 +27,7 @@ public class MyBag {
         }
         return null;
     }
-    public int findMyClsIndex(MyCls mycls){
+    private int findMyClsIndex(MyCls mycls){
         for (int i = 0; i < bag.length; i++) {
             if(bag[i] != null && bag[i].sameObject(mycls)){
                 return i;

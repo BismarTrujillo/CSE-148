@@ -21,7 +21,7 @@ public class MyClsB extends MyClsA{
 
         MyClsB b = (MyClsB)obj;
 
-        if(super.equals(obj) && b.value2 == this.value2)
+        if(super.equals(obj) && b.value2 == this.value2) // super compares members of parent, and explicity compare memebers of child
             return true;
 
         return false;

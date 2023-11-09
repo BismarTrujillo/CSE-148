@@ -13,36 +13,6 @@ public class HW06 {
         int count = findAndReplace("oldFile.txt", "dolor", "newWord");
         System.out.println("Number of replacements: " + count);
     }
-//    public static int findAndReplace(String file, String originalWord, String newWord) throws IOException {
-//        File path = new File(file);
-//        String oldText = "";
-//        FileWriter writer = null;
-//        try {
-//            BufferedReader reader = new BufferedReader(new FileReader(path));
-//            String line = reader.readLine();
-//
-//            while (line != null) {
-//                oldText = oldText + line + System.lineSeparator();
-//                line = reader.readLine();
-//            }
-//            String newText = oldText.replaceAll(originalWord, newWord);
-//
-//            writer = new FileWriter(newText);
-//            writer.write(newText);
-//        }catch (IOException e){
-//            e.printStackTrace();
-//        }finally {
-//            try {
-//                reader.close();
-//
-//                writer.close();
-//            }catch (IOException e){
-//                e.printStackTrace();
-//            }
-//        }
-//
-//        return 0;
-//    }
 
     public static int findAndReplace(String file, String originalWord, String newWord) {
         int count = 0;
@@ -68,19 +38,19 @@ public class HW06 {
 
         return count;
     }
-    public static int countFiles(String path){
+
+    public static int countFiles(String path) {
         int count = 0;
         File file = new File(path);
 
         Stack<File> stack = new Stack<>();
         stack.push(file);
 
-        while(!stack.empty()){
-            File tempFile = stack.pop();
+        while (!stack.empty()) {
+            File tempFile = stack.pop(); // throws exception if empty &&
 
-            if(tempFile.isFile()){
+            if (tempFile.isFile()) {
                 count++;
-
             } else if (tempFile.isDirectory()) {
 
                 File[] f = tempFile.listFiles();

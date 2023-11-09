@@ -75,7 +75,7 @@ public class Test {
 
                     if(!(a instanceof MyClsB)){
                         avgValue1AB += a.getValue1();
-                        avgValue1AB+= a.getValue1();
+                        avgValue1AB += a.getValue1();
                         numberOfObjs++;
                     } else {
                         avgValue2B += ((MyClsB) a).getValue2();
@@ -94,26 +94,31 @@ public class Test {
     public static MyClsA[] test_03_SortObject(MyClsA [] array) {
 
         int count = 0;
+        boolean swapped;
         for(MyClsA a : array) {
             if(a != null)
-                count++;
+                count++; // count for nonNull Objs
         }
         int idx = 0;
-        MyClsA [] list = new MyClsA[count];
+        MyClsA [] list = new MyClsA[count]; //new nonNull array
 
         for(MyClsA a : array) {
             if(a != null) {
-                list[idx++] = a;
+                list[idx++] = a; // adds nonNull elements into newArray
             }
         }
-        for(int i = 0; i<list.length; i++) {
+        for(int i = 0; i<list.length-1; i++) {
+            swapped = false; // checks if any swapping occurred
             for(int j = i+1; j<list.length; j++) {
                 if(list[i].getValue1() > list[j].getValue1() ) {
                         MyClsA temp = list[i];
                         list[i] = list[j];
                         list[j] = temp;
+                        swapped = true; // if swapping occurred
                 }
             }
+            if (swapped == false) // array sorted, then break looping
+                break;
         }
         return list;
     }

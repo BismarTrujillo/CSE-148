@@ -31,7 +31,7 @@ public class MyClsA {
 
         MyClsA a = (MyClsA)obj;
 
-        if(this.key.equals(a.key))
+        if(this.key.equals(a.key) && this.value1 == a.value1) // comparing all members of parent
             return true;
 
         return false;
