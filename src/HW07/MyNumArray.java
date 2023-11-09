@@ -10,7 +10,7 @@ public class MyNumArray implements  MaxMinNum, Comparable<MyNumArray>, Cloneable
         Random rd = new Random();
         this.data = new int[16];
         for (int i = 0; i < data.length; i++) {
-            data[i] = rd.nextInt();
+            data[i] = rd.nextInt(100);
         }
     }
 
@@ -18,7 +18,7 @@ public class MyNumArray implements  MaxMinNum, Comparable<MyNumArray>, Cloneable
         Random rd = new Random();
         this.data = new int[size];
         for (int i = 0; i < this.data.length; i++) {
-            this.data[i] = rd.nextInt();
+            this.data[i] = rd.nextInt(100);
         }
     }
 
@@ -62,12 +62,12 @@ public class MyNumArray implements  MaxMinNum, Comparable<MyNumArray>, Cloneable
     public String toString() {
         return "MyNumArray: " +
                 "Data size = " + data.length +
-                "Minimum = " + getMinimum() +
-                "Maximum = " + getMaximun();
+                " \n Minimum = " + getMinimum() +
+                " \n Maximum = " + getMaximum();
     }
 
     @Override
-    public int getMaximun() {
+    public int getMaximum() {
         int max = this.data[0];
 
         for (int num : this.data) {
@@ -91,24 +91,28 @@ public class MyNumArray implements  MaxMinNum, Comparable<MyNumArray>, Cloneable
     }
 
     @Override
-    public MyNumArray clone() {
-        try {
-            MyNumArray clone = (MyNumArray) super.clone();
-            // TODO: copy mutable state here, so the clone can't change the internals of the original
-            return clone;
+    protected Object clone() {
+        MyNumArray numArray = null;
+        try{
+            numArray = (MyNumArray) super.clone();
+            numArray.data = new int[this.data.length];
+            for (int i = 0; i < numArray.data.length; i++) {
+                if(this.data[i] != 0)
+                numArray.data[i] = this.data[i];
+            }
         } catch (CloneNotSupportedException e) {
-            throw new AssertionError();
+            e.printStackTrace();
         }
+        return numArray;
     }
-
 
     @Override
     public int compareTo(MyNumArray numArray) {
 
-        if(this.getMaximun() == numArray.getMaximun()){
-            if (this.getMinimum() == numArray.getMinimum())
+        if(getMaximum() == numArray.getMaximum()){
+            if (getMinimum() == numArray.getMinimum())
                 return 0;
-        } else if (this.getMaximun() > numArray.getMaximun())
+        } else if (getMaximum() > numArray.getMaximum())
             return 1;
         return -1;
     }

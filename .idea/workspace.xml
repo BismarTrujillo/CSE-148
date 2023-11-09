@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW 06 completed">
-      <change afterPath="$PROJECT_DIR$/src/HW07/MaxMinNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW07/MyNumArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidTerm/College.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidTerm/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidTerm/Faculty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidTerm/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidTerm/Test.java" afterDir="false" />
+    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW 07 started">
+      <change afterPath="$PROJECT_DIR$/src/HW07/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oldFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW05/AnimalHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW05/AnimalHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW06/HW06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW06/HW06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW06/MyClsA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW06/MyClsA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW06/MyClsB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW06/MyClsB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW06/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW06/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QUIZ/MyBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QUIZ/MyBag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW07/MaxMinNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW07/MaxMinNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW07/MyNumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW07/MyNumArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MidTerm/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidTerm/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,23 +61,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/HW",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/bisma/IdeaProjects/HW_Set_01",
-    "onboarding.tips.debug.path": "C:/Users/bisma/IdeaProjects/CSE-148/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/HW&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bisma/IdeaProjects/HW_Set_01&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/bisma/IdeaProjects/CSE-148/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.MidTerm.Test">
+}</component>
+  <component name="RunManager" selected="Application.HW07.Test">
     <configuration name="HW05.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW05.Test" />
       <module name="CSE-148" />
@@ -107,6 +97,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HW06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW07.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW07.Test" />
+      <module name="CSE-148" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,26 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW02.TestRing" />
-      <module name="CSE-148" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW07.Test" />
         <item itemvalue="Application.MidTerm.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.HW06" />
         <item itemvalue="Application.HW05.Test" />
-        <item itemvalue="Application.TestRing" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697687042629</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="HW 07 started">
+      <option name="closed" value="true" />
+      <created>1699501901185</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1699501901186</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -359,7 +357,8 @@
     <MESSAGE value="HW 05 completed" />
     <MESSAGE value="HW 06 part 1, 2 completed" />
     <MESSAGE value="HW 06 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 06 completed" />
+    <MESSAGE value="HW 07 started" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 07 started" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
