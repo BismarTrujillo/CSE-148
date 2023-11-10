@@ -18,13 +18,6 @@ public class Test {
         myArrayNumList.add(numArray2);
         myArrayNumList.add(numArray3);
 
-//        for (MyNumArray arr: myArrayNumList) {
-//            System.out.println("List: ");
-//            for (int num: arr.data) {
-//                System.out.println(num);
-//            }
-//        }
-
         for (MyNumArray arr: myArrayNumList) {
             System.out.println(arr);
         }
@@ -42,7 +35,6 @@ public class Test {
         for (MyNumArray arr: myArrayNumList) {
             System.out.println(arr);
         }
-
 
     }
 

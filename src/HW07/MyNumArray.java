@@ -38,7 +38,6 @@ public class MyNumArray implements  MaxMinNum, Comparable<MyNumArray>, Cloneable
         return sum / this.data.length;
     }
 
-    @Override
     public boolean equals(Object obj) {
         if(this == obj)
             return true;
@@ -58,7 +57,6 @@ public class MyNumArray implements  MaxMinNum, Comparable<MyNumArray>, Cloneable
         return false;
     }
 
-    @Override
     public String toString() {
         return "MyNumArray: " +
                 "Data size = " + data.length +
@@ -67,7 +65,6 @@ public class MyNumArray implements  MaxMinNum, Comparable<MyNumArray>, Cloneable
                 " \n Average = " + getAverage();
     }
 
-    @Override
     public int getMaximum() {
         int max = this.data[0];
 
@@ -79,7 +76,6 @@ public class MyNumArray implements  MaxMinNum, Comparable<MyNumArray>, Cloneable
         return max;
     }
 
-    @Override
     public int getMinimum() {
         int min = this.data[0];
 
@@ -91,7 +87,6 @@ public class MyNumArray implements  MaxMinNum, Comparable<MyNumArray>, Cloneable
         return min;
     }
 
-    @Override
     protected Object clone() {
         MyNumArray numArray = null;
         try{
@@ -107,7 +102,6 @@ public class MyNumArray implements  MaxMinNum, Comparable<MyNumArray>, Cloneable
         return numArray;
     }
 
-    @Override
     public int compareTo(MyNumArray numArray) {
 
         if(getMaximum() == numArray.getMaximum()){

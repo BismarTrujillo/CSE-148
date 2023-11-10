@@ -5,9 +5,6 @@ import java.util.Random;
 public class Test2 {
     public static void main(String[] args) {
 
-        Random rd = new Random();
-
-
         double a = randomDouble();
         double b = randomDouble();
         double c = randomDouble();
