@@ -33,7 +33,7 @@ public class TestRing {
         double smallestRingArea = Ring.smallestLargestRing(ringArray).smallest.getArea();
         double largestRingArea = Ring.smallestLargestRing(ringArray).largest.getArea();
 
-        System.out.println("The average area of rings is: " + averageAreaOfRings(ringArray));
+        System.out.println("The process area of rings is: " + averageAreaOfRings(ringArray));
         System.out.println("The largest ring has area: " + largestRingArea + " the smallest ring has area: " + smallestRingArea);
     }
     public static double averageAreaOfRings(Ring[] ringsArray) {

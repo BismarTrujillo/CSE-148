@@ -2,7 +2,7 @@ package HW07;
 
 public interface MyProcessor {
 
-    double average(double... data);
+    double process(double... data);
 //    double maximum(double... data);
 //    double minimum(double... data);
 
