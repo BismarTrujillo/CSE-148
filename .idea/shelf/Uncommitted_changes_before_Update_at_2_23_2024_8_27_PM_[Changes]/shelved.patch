@@ -1,0 +1,468 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"20c7776e-84aa-492d-b7d5-0f91a394c0d6\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/CSE-148.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 7\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2VJt193mqbMWgAeUcVMRlIeJGsv\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/bisma/IdeaProjects/CSE-148/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"20c7776e-84aa-492d-b7d5-0f91a394c0d6\" name=\"Changes\" comment=\"\" />\r\n      <created>1694565793563</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1694565793563</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 88541034bc77909918e46bbb4efa0eb6e9c1b686)
++++ b/.idea/workspace.xml	(date 1708737949129)
+@@ -1,40 +1,166 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/CSE-148.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
++    <list default="true" id="20c7776e-84aa-492d-b7d5-0f91a394c0d6" name="Changes" comment="HW 07 Completed Submitted">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
++  <component name="CodeInsightWorkspaceSettings">
++    <option name="optimizeImportsOnTheFly" value="true" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Interface" />
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="UPDATE_TYPE" value="REBASE" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;BismarTrujillo&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="selectedUrlAndAccountId">
++      <UrlAndAccount>
++        <option name="accountId" value="35185036-5f9a-4e13-a858-8837c80ca6a2" />
++        <option name="url" value="https://github.com/BismarTrujillo/CSE-148.git" />
++      </UrlAndAccount>
++    </option>
++  </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/src/HW07/MyNumArray.java" root0="FORCE_HIGHLIGHTING" />
+   </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 7
+-}]]></component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 7
++}</component>
+   <component name="ProjectId" id="2VJt193mqbMWgAeUcVMRlIeJGsv" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "master",
+-    "onboarding.tips.debug.path": "C:/Users/bisma/IdeaProjects/CSE-148/src/Main.java"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;feature/HW&quot;,
++    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/bisma/IdeaProjects/HW_Set_01&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/bisma/IdeaProjects/CSE-148/src/Main.java&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
++  },
++  &quot;keyToStringList&quot;: {
++    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
++      &quot;JAVA&quot;
++    ]
+   }
+-}]]></component>
++}</component>
++  <component name="RunManager" selected="Application.Test2">
++    <configuration name="HW06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="HW06.HW06" />
++      <module name="CSE-148" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="HW06.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="HW07.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="HW07.Test" />
++      <module name="CSE-148" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="HW07.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="MidTerm.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="MidTerm.Test" />
++      <module name="CSE-148" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="MidTerm.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="HW06.Test" />
++      <module name="CSE-148" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="HW06.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="HW07.Test2" />
++      <module name="CSE-148" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="HW07.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.Test2" />
++        <item itemvalue="Application.Test" />
++        <item itemvalue="Application.MidTerm.Test" />
++        <item itemvalue="Application.HW07.Test" />
++        <item itemvalue="Application.HW06" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
++      </set>
++    </attachedChunks>
++  </component>
++  <component name="SliceToolwindowSettings">
++    <option name="autoScroll" value="true" />
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -44,6 +170,271 @@
+       <option name="presentableId" value="Default" />
+       <updated>1694565793563</updated>
+     </task>
++    <task id="LOCAL-00001" summary="Project created">
++      <option name="closed" value="true" />
++      <created>1694565980016</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1694565980016</updated>
++    </task>
++    <task id="LOCAL-00002" summary="Part 1 &amp; 2 completed">
++      <option name="closed" value="true" />
++      <created>1694573220214</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1694573220214</updated>
++    </task>
++    <task id="LOCAL-00003" summary="part 3">
++      <option name="closed" value="true" />
++      <created>1694578054129</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1694578054129</updated>
++    </task>
++    <task id="LOCAL-00004" summary="part 3 completed">
++      <option name="closed" value="true" />
++      <created>1694657215782</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1694657215782</updated>
++    </task>
++    <task id="LOCAL-00005" summary="HW 02 completed">
++      <option name="closed" value="true" />
++      <created>1694665405507</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1694665405507</updated>
++    </task>
++    <task id="LOCAL-00006" summary="reorginized HW02">
++      <option name="closed" value="true" />
++      <created>1694912543788</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1694912543788</updated>
++    </task>
++    <task id="LOCAL-00007" summary="HW03 part 1 completed">
++      <option name="closed" value="true" />
++      <created>1694917576330</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1694917576330</updated>
++    </task>
++    <task id="LOCAL-00008" summary="HW03 part 2 completed">
++      <option name="closed" value="true" />
++      <created>1695179102499</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1695179102499</updated>
++    </task>
++    <task id="LOCAL-00009" summary="HW03 part 3 started (b)">
++      <option name="closed" value="true" />
++      <created>1695309185336</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1695309185336</updated>
++    </task>
++    <task id="LOCAL-00010" summary="HW03 part 3 started (5)">
++      <option name="closed" value="true" />
++      <created>1695346688267</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1695346688267</updated>
++    </task>
++    <task id="LOCAL-00011" summary="HW03 completed">
++      <option name="closed" value="true" />
++      <created>1695355062526</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1695355062526</updated>
++    </task>
++    <task id="LOCAL-00012" summary="HW04 part 1 completed">
++      <option name="closed" value="true" />
++      <created>1695697214514</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1695697214514</updated>
++    </task>
++    <task id="LOCAL-00013" summary="HW04 part 2 completed">
++      <option name="closed" value="true" />
++      <created>1695781131892</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1695781131892</updated>
++    </task>
++    <task id="LOCAL-00014" summary="HW04 part 3 progress">
++      <option name="closed" value="true" />
++      <created>1695869704866</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1695869704867</updated>
++    </task>
++    <task id="LOCAL-00015" summary="HW04 completed">
++      <option name="closed" value="true" />
++      <created>1695933469852</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1695933469852</updated>
++    </task>
++    <task id="LOCAL-00016" summary="Quiz01">
++      <option name="closed" value="true" />
++      <created>1696721026043</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1696721026043</updated>
++    </task>
++    <task id="LOCAL-00017" summary="HW 05 classes created">
++      <option name="closed" value="true" />
++      <created>1697251420209</created>
++      <option name="number" value="00017" />
++      <option name="presentableId" value="LOCAL-00017" />
++      <option name="project" value="LOCAL" />
++      <updated>1697251420211</updated>
++    </task>
++    <task id="LOCAL-00018" summary="HW 05 completed">
++      <option name="closed" value="true" />
++      <created>1697260950755</created>
++      <option name="number" value="00018" />
++      <option name="presentableId" value="LOCAL-00018" />
++      <option name="project" value="LOCAL" />
++      <updated>1697260950755</updated>
++    </task>
++    <task id="LOCAL-00019" summary="HW 06 part 1, 2 completed">
++      <option name="closed" value="true" />
++      <created>1697667664631</created>
++      <option name="number" value="00019" />
++      <option name="presentableId" value="LOCAL-00019" />
++      <option name="project" value="LOCAL" />
++      <updated>1697667664631</updated>
++    </task>
++    <task id="LOCAL-00020" summary="HW 06 completed">
++      <option name="closed" value="true" />
++      <created>1697687042629</created>
++      <option name="number" value="00020" />
++      <option name="presentableId" value="LOCAL-00020" />
++      <option name="project" value="LOCAL" />
++      <updated>1697687042629</updated>
++    </task>
++    <task id="LOCAL-00021" summary="HW 07 started">
++      <option name="closed" value="true" />
++      <created>1699501901185</created>
++      <option name="number" value="00021" />
++      <option name="presentableId" value="LOCAL-00021" />
++      <option name="project" value="LOCAL" />
++      <updated>1699501901186</updated>
++    </task>
++    <task id="LOCAL-00022" summary="HW 07 Part 2">
++      <option name="closed" value="true" />
++      <created>1699548147559</created>
++      <option name="number" value="00022" />
++      <option name="presentableId" value="LOCAL-00022" />
++      <option name="project" value="LOCAL" />
++      <updated>1699548147560</updated>
++    </task>
++    <task id="LOCAL-00023" summary="HW 07 Part 3">
++      <option name="closed" value="true" />
++      <created>1699570247127</created>
++      <option name="number" value="00023" />
++      <option name="presentableId" value="LOCAL-00023" />
++      <option name="project" value="LOCAL" />
++      <updated>1699570247127</updated>
++    </task>
++    <task id="LOCAL-00024" summary="HW 07 Part 3 completed">
++      <option name="closed" value="true" />
++      <created>1699583058573</created>
++      <option name="number" value="00024" />
++      <option name="presentableId" value="LOCAL-00024" />
++      <option name="project" value="LOCAL" />
++      <updated>1699583058573</updated>
++    </task>
++    <task id="LOCAL-00025" summary="HW 07 Completed Submitted">
++      <option name="closed" value="true" />
++      <created>1699583648056</created>
++      <option name="number" value="00025" />
++      <option name="presentableId" value="LOCAL-00025" />
++      <option name="project" value="LOCAL" />
++      <updated>1699583648056</updated>
++    </task>
++    <task id="LOCAL-00026" summary="HW 07 Completed Submitted">
++      <option name="closed" value="true" />
++      <created>1708737334229</created>
++      <option name="number" value="00026" />
++      <option name="presentableId" value="LOCAL-00026" />
++      <option name="project" value="LOCAL" />
++      <updated>1708737334229</updated>
++    </task>
++    <option name="localTasksCounter" value="27" />
+     <servers />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Project created" />
++    <MESSAGE value="Part 1 &amp; 2 completed" />
++    <MESSAGE value="part 3" />
++    <MESSAGE value="part 3 completed" />
++    <MESSAGE value="HW 02 completed" />
++    <MESSAGE value="reorginized HW02" />
++    <MESSAGE value="HW03 part 1 completed" />
++    <MESSAGE value="HW03 part 2 completed" />
++    <MESSAGE value="HW03 part 3 started (b)" />
++    <MESSAGE value="HW03 part 3 started (5)" />
++    <MESSAGE value="HW03 completed" />
++    <MESSAGE value="HW04 part 1 completed" />
++    <MESSAGE value="HW04 part 2 completed" />
++    <MESSAGE value="HW04 part 3 progress" />
++    <MESSAGE value="HW04 completed" />
++    <MESSAGE value="Quiz01" />
++    <MESSAGE value="HW 05 classes created" />
++    <MESSAGE value="HW 05 completed" />
++    <MESSAGE value="HW 06 part 1, 2 completed" />
++    <MESSAGE value="HW 06 completed" />
++    <MESSAGE value="HW 07 started" />
++    <MESSAGE value="HW 07 Part 2" />
++    <MESSAGE value="HW 07 Part 3" />
++    <MESSAGE value="HW 07 Part 3 completed" />
++    <MESSAGE value="HW 07 Completed Submitted" />
++    <option name="LAST_COMMIT_MESSAGE" value="HW 07 Completed Submitted" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <breakpoint enabled="true" type="java-exception">
++          <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
++          <option name="timeStamp" value="2" />
++        </breakpoint>
++        <breakpoint enabled="true" type="java-exception">
++          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
++          <option name="timeStamp" value="4" />
++        </breakpoint>
++        <line-breakpoint enabled="true" type="java-method">
++          <url>file://$PROJECT_DIR$/src/HW06/HW06.java</url>
++          <line>41</line>
++          <properties class="HW06.HW06" method="countFiles">
++            <option name="EMULATED" value="true" />
++            <option name="WATCH_EXIT" value="false" />
++          </properties>
++          <option name="timeStamp" value="5" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
++    <watches-manager>
++      <configuration name="Application">
++        <watch expression="type" />
++      </configuration>
++    </watches-manager>
++  </component>
+ </project>
+\ No newline at end of file
