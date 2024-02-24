@@ -38,10 +38,7 @@ public class Employee {
 
         Employee employee = (Employee) obj;
 
-        if (this.name.equals(employee.name) && this.salary == employee.salary)
-            return true;
-
-        return false;
+        return this.name.equals(employee.name) && this.salary == employee.salary;
     }
     public String toString() {
         return "Employee: name = " + name + ", salary = " + salary;
